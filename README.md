@@ -1,16 +1,84 @@
-# React + Vite
+# Couture Corner 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+Couture Corner is a simple online store website built using **React**. Users can browse products, view details, add items to the cart, and fill a checkout form.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project demonstrates basic React concepts like routing, API fetching, and state management using Context API.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+**Home Page**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Hero section
+* Featured products
+* Categories section
+
+**Products Page**
+
+* Shows all products
+* Product image, price, rating
+* Add to cart button
+
+**Product Details Page**
+
+* Product image
+* Description
+* Price
+* Quantity selector
+
+**Cart Page**
+
+* View selected items
+* Update quantity
+* Remove products
+* Total price calculation
+
+**Checkout Page**
+
+* Name
+* Address
+* Phone number
+* Payment method
+
+---
+
+## Tech Stack
+
+* React
+* Tailwind CSS
+* React Router DOM
+* Context API
+* Fake Store API
+
+---
+
+## How to Run the Project
+
+1. Clone the repository
+
+```
+git clone https://github.com/your-username/couture-corner.git
+```
+
+2. Install dependencies
+
+```
+npm install
+```
+
+3. Start the project
+
+```
+npm run dev
+```
+
+---
+
+## Author
+
+Mahi Badiye
+CSE Student | React Developer
+
